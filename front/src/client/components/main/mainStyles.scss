@@ -1,0 +1,26 @@
+.main {
+    padding: 0;
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 100%;
+    overflow: hidden;
+
+    &-item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &-link {
+            text-decoration: none;
+            color: #184653;
+            box-sizing: border-box;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                color: #ff8302;
+                transform: scale(1.03);
+            }
+        }
+    }
+}
